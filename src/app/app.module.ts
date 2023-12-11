@@ -4,11 +4,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 
-@NgModule({
+@NgModule({ //? Declaraciones, componentes, directivas, pipes
   declarations: [
     AppComponent,
   ],
-  imports: [
+  imports: [ //? Solo se importan otros modules
     BrowserModule,
     AppRoutingModule
   ],
