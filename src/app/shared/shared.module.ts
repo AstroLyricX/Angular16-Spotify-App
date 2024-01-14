@@ -12,7 +12,9 @@ import { HeaderUserComponent } from './components/header-user/header-user.compon
     HeaderUserComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MediaPlayerComponent,
+    HeaderUserComponent
   ],
 
 })
