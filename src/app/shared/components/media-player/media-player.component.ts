@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { TracksModule } from '@core/models/tracks.model';
 
 @Component({
   selector: 'app-media-player',
@@ -10,10 +11,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MediaPlayerComponent implements OnInit {
 
-  mockCover: any = {
+  mockCover: TracksModule = {
     cover: 'https://www.freeiconspng.com/thumbs/button-icon-png/play-button-icon-png-17.png',
     album: 'Gioli & Assi',
     name: 'BEBE (Oficial)',
+    url: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    _id: 1
   }
 
   constructor() { }
