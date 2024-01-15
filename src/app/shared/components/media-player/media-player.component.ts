@@ -1,11 +1,11 @@
-import { CommonModule } from '@angular/common';
+// import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { TracksModule } from '@core/models/tracks.model';
 
 @Component({
   selector: 'app-media-player',
-  standalone: true,
-  imports: [CommonModule],
+  // standalone: true,
+  // imports: [CommonModule],
   templateUrl: './media-player.component.html',
   styleUrls: ['./media-player.component.css']
 })
